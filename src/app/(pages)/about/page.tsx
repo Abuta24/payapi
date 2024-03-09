@@ -1,48 +1,12 @@
 "use client";
-import { useState } from "react";
 import Link from "next/link";
+import Header from "@/app/components/Header";
+import Footer from "@/app/components/Footer";
 
 export default function page() {
-  const [show, setShow] = useState(false);
   return (
     <div>
-      <header className="cont">
-        <div className="headeri">
-          <img src="/Group 21.svg" alt="" />
-          <img
-            onClick={() => {
-              setShow(true);
-            }}
-            src="/Group.svg"
-            alt=""
-          />
-          {show && (
-            <div className="showze">
-              <img
-                onClick={() => {
-                  setShow(false);
-                }}
-                className="cancel"
-                src="/Group 31.svg"
-                alt=""
-              />
-              <div className="xazebi"></div>
-              <nav>
-                <Link href={"/pricing"}>
-                  <h1 className="route">Pricing</h1>
-                </Link>
-                <Link href={"/about"}>
-                  <h1 className="route">About</h1>
-                </Link>
-                <Link href={"/contact"}>
-                  <h1 className="route">Contact</h1>
-                </Link>
-              </nav>
-              <button className="raremr">Schedule a Demo</button>
-            </div>
-          )}
-        </div>
-      </header>
+      <Header />
       <div className="topl">
         <h1 className="we">
           We empower innovators by delivering access to the financial system
@@ -100,8 +64,8 @@ export default function page() {
         <div className="tyvlipa">
           <h1 className="ty">The Culture</h1>
           <p className="tyy">
-            We strongly believe there's always an opportunity to learn from each
-            other outside of day-to-day work, whether it's company-wide
+            We strongly believe theres always an opportunity to learn from each
+            other outside of day-to-day work, whether its company-wide
             offsites, internal hackathons, or co-worker meetups. We always value
             cross-team collaboration and diversity of thought, no matter the job
             title.
@@ -110,7 +74,7 @@ export default function page() {
         <div className="tyvlipa">
           <h1 className="ty">The People</h1>
           <p className="tyy">
-            We're all passionate about building a more efficient and inclusive
+            Were all passionate about building a more efficient and inclusive
             financial infrastructure together. At PayAPI, we have diverse
             backgrounds and skills.
           </p>
@@ -134,21 +98,7 @@ export default function page() {
         </p>
       </div>
       <div className="height"></div>
-      <footer>
-        <img className="ramraer" src="/Group 21.svg" alt="" />
-        <nav>
-          <Link href={"/pricing"}>
-            <h1 className="route">Pricing</h1>
-          </Link>
-          <Link href={"/about"}>
-            <h1 className="route">About</h1>
-          </Link>
-          <Link href={"/contact"}>
-            <h1 className="route">Contact</h1>
-          </Link>
-        </nav>
-        <img className="dauwhdiua" src="/Group 24.svg" alt="" />
-      </footer>
+      <Footer />
     </div>
   );
 }

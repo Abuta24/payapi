@@ -1,49 +1,15 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function Home() {
-  const [show, setShow] = useState(false);
   return (
     <>
       <div className="container">
         <div className="zevit">
           <div className="header1">
-            <div className="header">
-              <img src="/Group 21.svg" alt="" />
-              <img
-                onClick={() => {
-                  setShow(true);
-                }}
-                src="/Group.svg"
-                alt=""
-              />
-              {show && (
-                <div className="showze1">
-                  <img
-                    onClick={() => {
-                      setShow(false);
-                    }}
-                    className="cancel"
-                    src="/Group 31.svg"
-                    alt=""
-                  />
-                  <div className="xazebi"></div>
-                  <nav>
-                    <Link href={"/pricing"}>
-                      <h1 className="route">Pricing</h1>
-                    </Link>
-                    <Link href={"/about"}>
-                      <h1 className="route">About</h1>
-                    </Link>
-                    <Link href={"/contact"}>
-                      <h1 className="route">Contact</h1>
-                    </Link>
-                  </nav>
-                  <button className="raremr">Schedule a Demo</button>
-                </div>
-              )}
-            </div>
+            <Header />
             <img className="tele" src="/Group 30.svg" alt="" />
           </div>
           <h1 className="start">
@@ -136,21 +102,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <footer>
-          <img className="ramraer" src="/Group 21.svg" alt="" />
-          <nav>
-            <Link href={"/pricing"}>
-              <h1 className="route">Pricing</h1>
-            </Link>
-            <Link href={"/about"}>
-              <h1 className="route">About</h1>
-            </Link>
-            <Link href={"/contact"}>
-              <h1 className="route">Contact</h1>
-            </Link>
-          </nav>
-          <img className="dauwhdiua" src="/Group 24.svg" alt="" />
-        </footer>
+        <Footer />
       </div>
     </>
   );

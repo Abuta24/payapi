@@ -1,48 +1,11 @@
 "use client";
-import { useState } from "react";
-import Link from "next/link";
+import Header from "@/app/components/Header";
+import Footer from "@/app/components/Footer";
 
 export default function page() {
-  const [show, setShow] = useState(false);
   return (
     <div className="container">
-      <header>
-        <div className="headeri">
-          <img src="/Group 21.svg" alt="" />
-          <img
-            onClick={() => {
-              setShow(true);
-            }}
-            src="/Group.svg"
-            alt=""
-          />
-          {show && (
-            <div className="showze">
-              <img
-                onClick={() => {
-                  setShow(false);
-                }}
-                className="cancel"
-                src="/Group 31.svg"
-                alt=""
-              />
-              <div className="xazebi"></div>
-              <nav>
-                <Link href={"/pricing"}>
-                  <h1 className="route">Pricing</h1>
-                </Link>
-                <Link href={"/about"}>
-                  <h1 className="route">About</h1>
-                </Link>
-                <Link href={"/contact"}>
-                  <h1 className="route">Contact</h1>
-                </Link>
-              </nav>
-              <button className="raremr">Schedule a Demo</button>
-            </div>
-          )}
-        </div>
-      </header>
+      <Header />
       <div className="dauhw">
         <h1 className="deda">
           Submit a help request and we’ll get in touch shortly.
@@ -94,21 +57,7 @@ export default function page() {
           <p className="sch">Schedule a Demo</p>
         </div>
       </div>
-      <footer>
-        <img className="ramraer" src="/Group 21.svg" alt="" />
-        <nav>
-          <Link href={"/pricing"}>
-            <h1 className="route">Pricing</h1>
-          </Link>
-          <Link href={"/about"}>
-            <h1 className="route">About</h1>
-          </Link>
-          <Link href={"/contact"}>
-            <h1 className="route">Contact</h1>
-          </Link>
-        </nav>
-        <img className="dauwhdiua" src="/Group 24.svg" alt="" />
-      </footer>
+      <Footer />
     </div>
   );
 }
