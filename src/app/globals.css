@@ -1049,4 +1049,7 @@ nav {
     gap: 40px;
     margin-bottom: 20px;
   }
+  .mid{
+    width: 768px;
+  }
 }
