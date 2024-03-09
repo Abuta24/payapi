@@ -1,0 +1,1048 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  background-color: #edf3f8;
+}
+
+.zevit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  gap: 164px;
+  position: absolute;
+  top: 32px;
+}
+
+.tele {
+  margin-left: 45px;
+  position: absolute;
+  top: 64px;
+}
+
+.start {
+  color: #36536b;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 112.5% */
+  letter-spacing: -0.246px;
+  margin-top: 144px;
+  width: 327px;
+}
+
+.email {
+  margin-top: 24px;
+  border-radius: 24px;
+  background: #fbfcfe;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border: none;
+  outline: none;
+  width: 327px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  padding-left: 27px;
+  color: #36536b;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button {
+  width: 327px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #ba4270;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.sch {
+  color: #fbfcfe;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.115px;
+  width: 231px;
+}
+
+.have {
+  color: #6c8294;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 24px;
+}
+
+.cont {
+  color: #6c8294;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.mid {
+  background-color: #1b262f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 79px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.who {
+  color: #fbfcfe;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 112.5% */
+  letter-spacing: -0.246px;
+  margin-top: 56px;
+}
+
+.today {
+  color: #fbfcfe;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 186.667% */
+  opacity: 0.7;
+  margin-top: 16px;
+  width: 327px;
+}
+
+.aboutus {
+  background-color: transparent;
+  border-radius: 24px;
+  border: 1px solid #fbfcfe;
+  width: 129px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #fbfcfe;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.115px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.bottom {
+  background-color: #edf3f8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.easy {
+  margin-top: -40px;
+  color: #36536b;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 100% */
+  letter-spacing: -0.277px;
+}
+
+.our {
+  width: 328px;
+  color: #6c8294;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 186.667% */
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+
+.simple {
+  color: #36536b;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 100% */
+  letter-spacing: -0.277px;
+}
+
+.g17 {
+  margin-top: 80px;
+}
+
+.personal {
+  color: #36536b;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+  letter-spacing: -0.138px;
+  margin-top: 33px;
+}
+
+.consolidate {
+  color: #6c8294;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: -0.115px;
+  width: 328px;
+  margin-top: 16px;
+}
+
+.ready {
+  margin-top: 80px;
+  color: #36536b;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 112.5% */
+  letter-spacing: -0.246px;
+}
+
+.xuina {
+  margin-bottom: 80px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1b262f;
+  width: 100%;
+}
+
+nav {
+  margin-top: 7px;
+  margin-bottom: 40px;
+}
+
+.route {
+  color: #fbfcfe;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.7;
+  margin-top: 33px;
+}
+
+.ramraer {
+  margin-top: 40px;
+}
+
+.dauwhdiua {
+  margin-bottom: 40px;
+}
+
+.headeri {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 164px;
+  margin-top: 32px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pricing {
+  color: #36536b;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 112.5% */
+  letter-spacing: -0.246px;
+  margin-top: 48px;
+}
+
+.free {
+  color: #ba4270;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.185px;
+  margin-top: 48px;
+  margin-bottom: 81px;
+}
+
+.money {
+  color: #36536b;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 128.571% */
+  letter-spacing: -0.431px;
+}
+
+.line {
+  width: 327px;
+  height: 1px;
+  opacity: 0.25;
+  background: #36536b;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.check {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 130px;
+}
+
+.done {
+  color: #36536b;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.undone {
+  color: #36536b;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  opacity: 0.7;
+  margin-left: 36px;
+}
+
+.dn {
+  display: none;
+}
+
+.req {
+  border-radius: 24px;
+  border: 1px solid #36536b;
+  width: 168px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #36536b;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.115px;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.topl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.we {
+  color: #36536b;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 112.5% */
+  letter-spacing: -0.246px;
+  width: 327px;
+  height: 152px;
+  flex-shrink: 0;
+  margin-top: 48px;
+}
+
+.vis {
+  color: #36536b;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.185px;
+  margin-top: 40px;
+}
+
+.omain {
+  width: 327px;
+  color: #6c8294;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 186.667% */
+  margin-top: 16px;
+}
+
+.dudghvna {
+  margin-top: 76px;
+}
+
+.lineee {
+  width: 327px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.25;
+  background: #36536b;
+  margin-top: 48px;
+}
+
+.teamm {
+  color: #36536b;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  opacity: 0.7;
+  margin-top: 16px;
+}
+
+.digit {
+  color: #ba4270;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 128.571% */
+  letter-spacing: -0.431px;
+  margin-top: 12px;
+}
+
+.ty {
+  color: #36536b;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.185px;
+}
+
+.tyy {
+  color: #6c8294;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 186.667% */
+  width: 327px;
+}
+
+.tyvlipa {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 48px;
+}
+
+.height {
+  height: 80px;
+}
+
+.dauhw {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.deda {
+  color: #36536b;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 112.5% */
+  letter-spacing: -0.246px;
+  width: 327px;
+  height: 116px;
+  flex-shrink: 0;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.chasaweri {
+  border: none;
+  outline: none;
+  width: 327px;
+  height: 42px;
+  flex-shrink: 0;
+  background-color: #edf3f8;
+  padding-left: 20px;
+  padding-bottom: 16px;
+}
+
+.xazi {
+  width: 327px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.5;
+  background: #36536b;
+  margin-bottom: 24px;
+}
+
+#bolo {
+  margin-bottom: 48px;
+}
+
+.tick {
+  display: flex;
+  gap: 26px;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxi {
+  opacity: 0.25;
+  background: #36536b;
+  width: 24px;
+  height: 24px;
+}
+
+.tickp {
+  width: 277px;
+  color: #36536b;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: -0.115px;
+}
+
+.sub {
+  width: 152px;
+  height: 48px;
+  flex-shrink: 0;
+  background-color: transparent;
+  border-radius: 24px;
+  border: 1px solid #36536b;
+  color: #36536b;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.115px;
+  margin-top: 24px;
+  margin-right: 180px;
+}
+
+.qvedanaw {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.join {
+  width: 327px;
+  color: #36536b;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.185px;
+  opacity: 0.75;
+}
+
+.showze1 {
+  position: absolute;
+  top: -32px;
+  right: -24px;
+  width: 300px;
+  height: 300px;
+  flex-shrink: 0;
+  background: #1b262f;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.showze {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 300px;
+  flex-shrink: 0;
+  background: #1b262f;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cancel {
+  position: absolute;
+  top: 42px;
+  right: 16px;
+}
+
+.xazebi {
+  width: 249px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.15;
+  background: #fbfcfe;
+  margin-top: 90px;
+}
+
+.raremr {
+  border-radius: 24px;
+  background: #ba4270;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  width: 252px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #fbfcfe;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.115px;
+}
+
+.din {
+  display: none;
+}
+
+.divii {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.danayofi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.danay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.zedanay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buildand {
+  display: none;
+}
+
+.zesection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (width >= 768px) {
+  .header,
+  .headeri {
+    top: 40px;
+    gap: 480px;
+  }
+  .tele {
+    width: 253px;
+    height: 439px;
+    top: -32px;
+  }
+  .showze1 {
+    top: -40px;
+    right: -62px;
+  }
+  .start {
+    margin-top: 300px;
+    width: 573px;
+    flex-shrink: 0;
+    color: #36536b;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.369px;
+  }
+  .email,
+  .button {
+    width: 445px;
+  }
+
+  .don {
+    display: none;
+  }
+  .din {
+    display: block;
+  }
+  .who {
+    margin-top: 72px;
+    width: 457px;
+    color: #fbfcfe;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.369px;
+  }
+  .today {
+    width: 456px;
+    color: #fbfcfe;
+    text-align: center;
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+  }
+  .aboutus {
+    margin-bottom: 88px;
+  }
+  .easy {
+    width: 573px;
+    color: #36536b;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.369px;
+  }
+  .our {
+    width: 573px;
+    color: #6c8294;
+    text-align: center;
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+  }
+  .divii {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .g17 {
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+  }
+  .consolidate {
+    width: 223px;
+  }
+  .ready {
+    color: #36536b;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.369px;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    width: 768px;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .ramraer {
+    margin: 0;
+  }
+  .dauwhdiua {
+    margin: 0;
+  }
+  .pricing {
+    margin-top: 80px;
+    color: #36536b;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.369px;
+  }
+  .zedanay {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .buildand {
+    display: block;
+    width: 223px;
+    color: #6c8294;
+    text-align: center;
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+    height: 84px;
+    margin-bottom: 10px;
+  }
+  .line {
+    width: 223px;
+  }
+  .free {
+    margin-bottom: 16px;
+  }
+  .we {
+    color: #36536b;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.369px;
+    width: 573px;
+    height: 178px;
+    flex-shrink: 0;
+  }
+  .vis {
+    margin: 0;
+    width: 223px;
+    text-align: start;
+  }
+  .boxe {
+    display: flex;
+    justify-content: center;
+    margin-top: 54px;
+    gap: 10px;
+  }
+  .omain {
+    margin: 0;
+    width: 456px;
+    flex-shrink: 0;
+    color: #6c8294;
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+    text-align: start;
+  }
+  .zesection {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .lineee {
+    width: 223px;
+  }
+  .tyvlipa {
+    flex-direction: row;
+  }
+  .ty {
+    width: 223px;
+    color: #36536b;
+    font-family: "DM Serif Display";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 125% */
+    letter-spacing: -0.246px;
+    text-align: start;
+  }
+  .tyy {
+    text-align: start;
+    width: 456px;
+    flex-shrink: 0;
+    color: #6c8294;
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+  }
+  .deda {
+    color: #36536b;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.369px;
+    width: 473px;
+  }
+  .inputs {
+    margin-top: 54px;
+  }
+  .chasaweri {
+    width: 445px;
+    padding-left: 20px;
+    color: #36536b;
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    letter-spacing: -0.115px;
+  }
+  .xazi {
+    width: 445px;
+    height: 1px;
+    flex-shrink: 0;
+  }
+  .tickp {
+    width: 395px;
+    color: #36536b;
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    letter-spacing: -0.115px;
+  }
+  .sub {
+    margin-right: 300px;
+  }
+  .join {
+    color: #36536b;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.185px;
+    width: 445px;
+  }
+  .qvedanaw {
+    gap: 40px;
+    margin-bottom: 20px;
+  }
+}
