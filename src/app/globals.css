@@ -15,6 +15,9 @@
 
 body {
   background-color: #edf3f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .zevit {
