@@ -689,6 +689,7 @@ nav {
   position: absolute;
   top: 42px;
   right: 16px;
+  cursor: pointer;
 }
 
 .xazebi {

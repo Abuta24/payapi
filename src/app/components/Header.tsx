@@ -14,6 +14,7 @@ export default function Header() {
               setShow(true);
             }}
             src="/Group.svg"
+            className="cursor-pointer"
             alt=""
           />
           {show && (
